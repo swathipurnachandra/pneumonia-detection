@@ -9,20 +9,6 @@ This project uses the Chest X-Ray Images (Pneumonia) dataset containing:
 - **Test set**: 624 images
 - Two classes: NORMAL and PNEUMONIA
 
-Dataset should be organized as:
-
-chest_xray/
-├── train/
-│ ├── NORMAL/
-│ └── PNEUMONIA/
-├── test/
-│ ├── NORMAL/
-│ └── PNEUMONIA/
-└── val/
-├── NORMAL/
-└── PNEUMONIA/
-
-
 ## Model Details
 - **Algorithm**: K-Nearest Neighbors (KNN)
 - **K value**: 5
