@@ -1,0 +1,42 @@
+# Dataset folders (too large for GitHub)
+chest_xray/
+__MACOSX/
+
+# Trained model (excluded - too large for GitHub)
+knn_pneumonia_model.pkl
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
