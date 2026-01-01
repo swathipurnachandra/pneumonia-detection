@@ -20,6 +20,7 @@ This project uses the Chest X-Ray Images (Pneumonia) dataset containing:
 ## Results
 - **Training accuracy**: 93.68%
 - **Test accuracy**: 73.24%
+
 The model is highly sensitive to pneumonia (99% recall) but has lower precision for normal cases. This means it rarely misses pneumonia cases but may over-diagnose.
 
 ## Requirements
